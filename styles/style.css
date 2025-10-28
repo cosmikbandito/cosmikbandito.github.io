@@ -1,0 +1,63 @@
+html {
+  /* px signifie "pixels". La taille de police de base est maintenant de 10
+     pixels de haut */
+  font-size: 10px;
+  /* Remplacez EMPLACEMENT par la valeur de la propriété font-family obtenue
+     depuis Google Fonts */
+  font-family: font-family: "Fjalla One", sans-serif;
+}
+
+h1,
+h2 {
+  font-size: 60px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <700>;
+  font-style: normal;
+  margin: 0;
+  padding: 20px 0;
+  color: rgb(101, 6, 84);
+  text-shadow: 3px 3px 1px black;
+}
+
+p {
+  color: rgb(101, 7, 84);
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  
+}
+
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+
+}
+
+a {
+  color: black
+}
+
+html {
+  background: linear-gradient(to bottom left, rgb(9, 9, 9) 50%, rgb(101, 6, 84) 50%);
+}
+
+
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: darkslategrey; 
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
