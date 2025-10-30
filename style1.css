@@ -51,7 +51,7 @@ a {
 }
 
 html {
-  background: linear-gradient(to bottom left, rgb(9, 9, 9) 50%, rgb(101, 6, 84) 50%);
+  background: linear-gradient(to bottom left, rgb(9, 9, 9), rgb(101, 6, 84) );
 }
 
 body {
