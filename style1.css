@@ -4,7 +4,7 @@ html {
   font-size: 10px;
   /* Remplacez EMPLACEMENT par la valeur de la propriété font-family obtenue
      depuis Google Fonts */
-  font-family: font-family: "Fjalla One", sans-serif;
+  font-family: "Fjalla One", sans-serif;
 }
 
 h1,
@@ -38,7 +38,6 @@ li {
 
 a {  
   font-size: 60px;
-  text-align: center;
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: <700>;
@@ -74,3 +73,15 @@ img {
       text-align: center;
 }
 
+span {
+  color: black;
+  font-size: 22px;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-family: "Fjalla One";
+  text-shadow: none;
+}
+
+#Suivant {
+  text-align: right: ;
+}
