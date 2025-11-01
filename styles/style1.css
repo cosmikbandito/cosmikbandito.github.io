@@ -7,14 +7,6 @@ html {
   font-family: "Fjalla One", sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
-  p,
-  a,
-  li {
-    font-size: 60px;
-  }
-}
-
 h1,
 h2 {
   font-size: 60px;
@@ -92,4 +84,16 @@ img {
 .bouton {
   position: relative;
   bottom: 0;
+}
+
+  @media screen and (max-width: 600px) {
+  p,
+  li {
+     font-size: 2rem;
+     }
+  h1,
+  h2 {
+    font-size: 80px;
+  }
+
 }
