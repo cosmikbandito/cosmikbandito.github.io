@@ -6,6 +6,13 @@ html {
      depuis Google Fonts */
     font-family: "Fjalla One", sans-serif;
 }
+@media only screen and (max-width: 600px) {
+  p,
+  li {
+    font-size: 30px;
+  }
+}
+
 
 h1,
 h2 {
