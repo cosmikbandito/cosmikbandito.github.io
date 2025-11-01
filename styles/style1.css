@@ -7,6 +7,13 @@ html {
   font-family: "Fjalla One", sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+  p,a
+  li {
+    font-size: 60px;
+  }
+}
+
 h1,
 h2 {
   font-size: 60px;
