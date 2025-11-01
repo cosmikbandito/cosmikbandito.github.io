@@ -1,7 +1,7 @@
 html {
   /* px signifie "pixels". La taille de police de base est maintenant de 10
      pixels de haut */
-  font-size: 10px;
+  font-size: 22px;
   /* Remplacez EMPLACEMENT par la valeur de la propriété font-family obtenue
      depuis Google Fonts */
   font-family: "Fjalla One", sans-serif;
