@@ -36,6 +36,14 @@ li {
 
 }
 
+span {
+  color: black;
+  font-size: 22px;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-family: "Fjalla One";
+  text-shadow: none;
+}
 a {  
   font-size: 60px;
   font-family: "Dancing Script", cursive;
@@ -73,15 +81,7 @@ img {
       text-align: center;
 }
 
-span {
-  color: black;
-  font-size: 22px;
-  line-height: 2;
-  letter-spacing: 1px;
-  font-family: "Fjalla One";
-  text-shadow: none;
-}
-
-#Suivant {
-  text-align: right: ;
+.bouton {
+  position: relative;
+  bottom: 0;
 }
