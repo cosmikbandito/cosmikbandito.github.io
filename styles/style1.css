@@ -8,7 +8,8 @@ html {
 }
 
 @media only screen and (max-width: 600px) {
-  p,a
+  p,
+  a,
   li {
     font-size: 60px;
   }
