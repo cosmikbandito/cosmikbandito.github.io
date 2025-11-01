@@ -61,6 +61,17 @@ body {
   border: 5px solid black;
 }
 
+@media only screen and (max-width: 600px) {
+  p, 
+  li {
+    font-size: 2rem;
+  }
+  h1,
+  H2 {
+    font-size 80px;
+  }
+}
+
 
 
 img {
