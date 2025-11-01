@@ -5,6 +5,10 @@ html {
   /* Remplacez EMPLACEMENT par la valeur de la propriété font-family obtenue
      depuis Google Fonts */
     font-family: "Fjalla One", sans-serif;
+}
+
+
+  
 
 h1,
 h2 {
@@ -48,20 +52,9 @@ html {
 body {
   width: 600px;
   margin: 0 auto;
-  background-color: darkslategrey; 
+  background-color: darkslategray; 
   padding: 0 20px 20px 20px;
   border: 5px solid black;
-}
-
-@media only screen and (max-width: 600px) {
-  p, 
-  li {
-    font-size: 2rem;
-  }
-  h1,
-  H2 {
-    font-size 80px;
-  }
 }
 
 
@@ -70,4 +63,16 @@ img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
+}
+
+  @media screen and (max-width: 600px) {
+  p,
+  li {
+     font-size: 2rem;
+     }
+  h1,
+  h2 {
+    font-size: 80px;
+  }
+
 }

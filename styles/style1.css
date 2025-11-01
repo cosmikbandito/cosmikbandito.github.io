@@ -81,19 +81,13 @@ img {
       text-align: center;
 }
 
-.bouton {
-  position: relative;
-  bottom: 0;
-}
-
   @media screen and (max-width: 600px) {
-  p,
-  li {
-     font-size: 2rem;
-     }
+  p {
+    font-size: 1.5rem;
+    }
   h1,
   h2 {
-    font-size: 80px;
-  }
+    font-size: 3rem;
+     }
 
 }
