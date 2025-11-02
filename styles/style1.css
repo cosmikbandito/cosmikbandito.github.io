@@ -12,6 +12,19 @@ body {
   border: 5px solid black;
 }
 
+a {  
+  font-size: 3rem;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <700>;
+  font-style: normal;
+  margin: 0;
+  padding: 20px 0;
+  color: rgb(101, 6, 84);
+  text-shadow: 3px 3px 1px black;
+  text-decoration: none;
+  
+}
 
 h1,h2,
 h3 {
@@ -34,13 +47,6 @@ p {
   
 }
 
-li {
-  line-height: 2;
-  letter-spacing: 1px;
-
-}
-
-
 
 span {
   color: black;
@@ -49,20 +55,11 @@ span {
   letter-spacing: 1px;
   font-family: "Fjalla One";
   text-shadow: none;
+  padding: 20px 0;
+  text-decoration: underline;
 }
 
-a {  
-  font-size: 3rem;
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: <700>;
-  font-style: normal;
-  margin: 0;
-  padding: 20px 0;
-  color: rgb(101, 6, 84);
-  text-shadow: 3px 3px 1px black;
-  
-}
+
 
 img {
   display: block;
