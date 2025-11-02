@@ -1,15 +1,14 @@
 html {
-  /* px signifie "pixels". La taille de police de base est maintenant de 10
-     pixels de haut */
   font-size: 22px;
-  /* Remplacez EMPLACEMENT par la valeur de la propriété font-family obtenue
-     depuis Google Fonts */
     font-family: "Fjalla One", sans-serif;
 }
 
+
+  
+
 h1,
 h2 {
-  font-size: 60px;
+  font-size: 3rem;
   text-align: center;
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
@@ -23,14 +22,12 @@ h2 {
 
 p {
   color: rgb(101, 7, 84);
-  font-size: 22px;
   line-height: 2;
   letter-spacing: 1px;
   
 }
 
 li {
-  font-size: 22px;
   line-height: 2;
   letter-spacing: 1px;
 
@@ -69,6 +66,7 @@ img {
      }
   h1,
   h2 {
-    font-size: 4rem
-     }
+    font-size: 3rem;
+  }
+
 }
