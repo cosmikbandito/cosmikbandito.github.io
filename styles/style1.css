@@ -35,7 +35,7 @@ h3 {
   font-weight: bold;
   font-style: normal;
   margin: 0;
-  padding: 20px 0;
+  padding: 20px 20px;
   color: rgb(101, 6, 84);
   text-shadow: 3px 3px 1px black;
 }
@@ -73,7 +73,7 @@ img {
 .pct {
   display: block;
   float: left;
-  margin-top: -45px
+  margin-top: -45px;
 }
 
 .svt {
