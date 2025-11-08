@@ -72,7 +72,6 @@ img {
 
 .pct, .svt {
   display: block;
-  width: 110px;
   border: 2px solid black;
   text-align: center;
   border-radius: 10PX;
