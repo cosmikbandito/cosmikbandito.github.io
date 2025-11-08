@@ -84,10 +84,12 @@ a:hover {
   opacity: 0.5;
 }
 
-.bouton:hover {
+.pct:hover {
   opacity: 0.5;
 }
-
+.svt:hover {
+  opacity: 0.5;
+}
 
   @media screen and (max-width: 600px) {
   p,
