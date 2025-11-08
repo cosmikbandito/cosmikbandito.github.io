@@ -13,17 +13,11 @@ body {
 }
 
 a {  
-  font-size: 3rem;
   font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: <700>;
   font-style: normal;
-  margin: 0;
-  padding: 20px 0;
   color: rgb(101, 6, 84);
   text-shadow: 3px 3px 1px black;
-  text-decoration: none;
-  
+  text-decoration: none;  
 }
 
 h1,h2,
@@ -51,11 +45,8 @@ p {
 span {
   color: black;
   font-size: 1rem;
-  line-height: 2;
-  letter-spacing: 1px;
   font-family: "Fjalla One";
   text-shadow: none;
-  padding: 20px 0;
   text-decoration: underline;
 }
 
@@ -70,17 +61,25 @@ img {
 .trolls {
       text-align: center;
 }
-.pct {
-  display: block;
-  float: left;
-  margin-top: -45px;
+
+
+
+.bouton {
+  display:flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.svt {
+.pct, .svt {
   display: block;
-  float: right;
-  margin-top: -45px;
+  width: 110px;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 10PX;
+  background: linear-gradient(to bottom right, rgb(9, 9, 9, 0.5), rgb(101, 6, 84) );
 }
+
+
 
   @media screen and (max-width: 600px) {
   p,
