@@ -1,26 +1,29 @@
 html {
-  background: linear-gradient(to bottom right, rgb(9, 9, 9), rgb(101, 6, 84) );
+  min-height: 100%;
+  background: linear-gradient(to bottom right, rgb(9, 9, 9), rgb(101, 6, 84));
   font-size: 22px;
   font-family: "Fjalla One", sans-serif;
 }
 
 body {
-  width: 600px;
+  max-width: 600px;
+  box-sizing: border-box;
   margin: 0 auto;
   background-color: darkslategrey;
   padding: 1em;
   border: 5px solid black;
 }
 
-a {  
+a {
   font-family: "Dancing Script", cursive;
   font-style: normal;
   color: rgb(101, 6, 84);
   text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
-  text-decoration: none;  
+  text-decoration: none;
 }
 
-h1,h2,
+h1,
+h2,
 h3 {
   font-size: 3rem;
   text-align: center;
@@ -29,7 +32,7 @@ h3 {
   font-weight: bold;
   font-style: normal;
   margin: 0;
-  padding: 20px 20px;
+  padding: 20px;
   color: rgb(101, 6, 84);
   text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
 }
@@ -38,19 +41,16 @@ p {
   color: black;
   line-height: 2;
   letter-spacing: 1px;
-  
+  text-align: center;
 }
-
 
 span {
   color: black;
   font-size: 1rem;
-  font-family: "Fjalla One";
+  font-family: "Fjalla One", sans-serif;
   text-shadow: none;
   text-decoration: underline;
 }
-
-
 
 img {
   display: block;
@@ -59,46 +59,35 @@ img {
 }
 
 .trolls {
-      text-align: center;
+  text-align: center;
 }
 
-
-
 .bouton {
-  display:flex;
+  display: flex;
   width: 100%;
   justify-content: space-between;
 }
 
-.pct, .svt {
+.pct,
+.svt {
   display: block;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
   padding: 3px;
   border: 2px solid black;
   text-align: center;
-  border-radius: 10PX;
-  background: linear-gradient(to bottom right, rgb(9, 9, 9, 0.5), rgb(101, 6, 84) );
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, rgba(9, 9, 9, 0.5), rgb(101, 6, 84));
 }
 
-a:hover {
-  opacity: 0.5;
-}
-
-.pct:hover {
-  opacity: 0.5;
-}
+a:hover,
+.pct:hover,
 .svt:hover {
   opacity: 0.5;
 }
 
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   p,
   span {
     font-size: 2rem;
-       }
-  h1,
-  h2 {
-    font-size: 3rem;
-     }
+  }
 }
-
