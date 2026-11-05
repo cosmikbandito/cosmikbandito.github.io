@@ -1,3 +1,7 @@
+
+/* =================================================
+   Styles globaux - You And Me (Fichiers fusionnés et nettoyés)
+   ================================================= */
 html {
   min-height: 100%;
   font-size: 22px;
@@ -14,8 +18,10 @@ body {
   border: 5px solid black;
 }
 
+/* Titres */
 h1,
-h2 {
+h2,
+h3 {
   font-size: 3rem;
   text-align: center;
   font-family: "Dancing Script", cursive;
@@ -28,10 +34,12 @@ h2 {
   text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
 }
 
+/* Texte et listes */
 p {
   color: rgb(101, 6, 84);
   line-height: 2;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 li {
@@ -39,23 +47,68 @@ li {
   letter-spacing: 1px;
 }
 
+/* Liens */
 a {
-  color: black;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
+  font-family: "Dancing Script"
+  font-style: normal;
+  color: rgb(101, 6, 84);
+  text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
 }
 
 a:hover {
   opacity: 0.5;
 }
 
+/* Images */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Composants spécifiques */
+.trolls {
+  text-align: center;
+}
+
+.accueil {
+  text-align: center;
+}
+
+/* Boutons de navigation */
+.bouton {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.pct,
+.svt {
+  display: inline-block;
+  box-sizing: border-box;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+  padding: 6px 12px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, rgba(9, 9, 9, 0.5), rgb(101, 6, 84));
+  color: black;
+  font-size: 1rem;
+  font-family: "Fjalla One", sans-serif;
+  text-shadow: none;
+  text-decoration: underline;
+}
+
+.pct:hover,
+.svt:hover {
+  opacity: 0.5;
+}
+
+/* Responsive */
 @media screen and (max-width: 600px) {
   p,
   li {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
