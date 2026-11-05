@@ -1,11 +1,13 @@
 html {
+  min-height: 100%;
   font-size: 22px;
   font-family: "Fjalla One", sans-serif;
   background: linear-gradient(to bottom right, rgb(9, 9, 9), rgb(101, 6, 84));
 }
 
 body {
-  width: 600px;
+  max-width: 600px;
+  box-sizing: border-box;
   margin: 0 auto;
   background-color: darkslategray;
   padding: 1em;
@@ -21,28 +23,25 @@ h2 {
   font-weight: bold;
   font-style: normal;
   margin: 0;
-  padding: 20px 20px;
+  padding: 20px;
   color: rgb(101, 6, 84);
   text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
 }
 
 p {
-  color: rgb(101, 7, 84);
+  color: rgb(101, 6, 84);
   line-height: 2;
   letter-spacing: 1px;
-
 }
 
 li {
   line-height: 2;
   letter-spacing: 1px;
-
 }
 
 a {
-  color: black
+  color: black;
 }
-
 
 img {
   display: block;
@@ -53,16 +52,10 @@ img {
 a:hover {
   opacity: 0.5;
 }
-@media screen and (max-width: 600px) {
 
+@media screen and (max-width: 600px) {
   p,
   li {
     font-size: 2rem;
   }
-
-  h1,
-  h2 {
-    font-size: 3rem;
-  }
 }
-  
